@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page tout les séjours</title>
+</head>
+<body>
+    <div id="page">
+        <div class="contenu">
+    <header>
+        <a href="accueilL.html"><img id="header_img" src="images/Logo.png" title="" alt="Logo du site"></a>
+        <nav>
+            <div class="navig ">
+                <ul>
+                    <li><a href="accueilL.html">ACCUEIL</a></li>
+                    <li><a href="#">SEJOURS</a>
+                        <ul class="sousmenu">
+                            <li><a href="tout_les_sejours.html">FRANCE</a></li>
+                            <li><a href="tout_les_sejours.html">ETRANGER</a></li>
+                            <li><a href="tout_les_sejours.html">AVIS</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">ACTIVITES</a>
+                        <ul class="sousmenu">
+                            <li><a href="tout_les_sejours.html">MER</a></li>
+                            <li><a href="tout_les_sejours.html">MONTAGNE</a></li>
+                            <li><a href="tout_les_sejours.html">AVENTURE</a></li>
+                            <li><a href="tout_les_sejours.html">DECOUVERTE</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">QUI SOMMES-NOUS ?</a></li>
+                    <li><a href="#">NOUS CONTACTER</a></li>
+                </ul>
+            </div>
+            <img src="images/menu-burger.png" alt="burger" title="Burger" class="burger">
+        </nav>
+    </header>
+    <main id="touslessej">
+        
+		<div class="recherche ">
+            <form id="Formulaire">
+                <div class="formu">
+                    <div class="boite">
+                        <label id="type">Types d'activités</label>
+                        <select name="Choix" id="types">
+                            <option value="Choix">Selectionnez un type d'activité</option>
+                            <option value="Mer">Mer</option>
+                            <option value="Montagne">Montagne</option>
+                            <option value="Aventures">Aventures</option>
+                            <option value="Découverte">Découverte</option>
+                        </select>
+                    </div>
+
+                <div class="boite">
+                    <label>Niveau Sportif</label>
+                        <select name="Niveau" id="sport">
+                        <option value="Choix">Selectionnez un niveau</option>
+                        <option value="1">Débutant</option>
+                        <option value="2">Confirmé</option>
+                        <option value="3">Expert</option>
+                    </select>
+                </div>
+
+                <div class="boite">
+                    <label>Départ</label>
+                        <input type="date">
+
+                </div>
+
+                <div class="boite">
+                    <label>Arrivée</label>
+                        <input type="date">
+
+                </div>
+                
+
+                <div class="boite">
+                    <label>Localisation</label>
+                        <select name="Localisation" id="Localisation">
+                            <option value="Choix">Selectionnez le pays où se situe le séjour</option>
+                            <option value="FR">France</option>
+                            <option value="IT">Italie</option>
+                            <option value="ESP">Espagne</option>
+                            <option value="GRC">Grèce</option>
+                        </select>
+                </div>
+                <a href=""><img id ="refresh-button" src="images/loupe-arrondie.png" title ="Loupe" alt="Loupe de recherche"></a>
+                </div>
+            </form>
+
+        </div>
+        <section class="liste">
+            <article class ="bloc">
+				<img class = "images"  src="images/mountain.jpg"  title ="" alt="Image de montagne">
+                <div class="texte">
+                <h2><a href="Page_détaillée_sejour.html">ESCALADE AU SOMMET DES DUNES</a></h2>
+                <div class="localisation">
+                   <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                    <p>Hautes-Alpes, France</p> 
+                </div>
+                
+                <p>Montagne, Expert</p>
+				<p>Expérience unique qui vous emmènera à la découverte des dunes les plus hautes et les plus imposantes. Vous aurez l'occasion de gravir des pentes raides et de marcher sur des dunes en constante évolution, tout en admirant les vues époustouflantes sur les alentours.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/houses.jpg" title ="Village" alt="Image de village">
+                <div class="texte">
+                <h2><a href="Page_détaillée_sejour.html">VOILE SUR LA COTE</a></h2>
+                <div class="localisation">
+                    <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                    <p>Ligurie, Italie</p>
+                </div>
+                
+                <p>Mer, Confirmé</p>
+				<p>Vous serez embarqué à bord d'un voilier moderne, et sous la direction d'un skipper expérimenté, vous découvrirez les meilleures techniques de navigation et de manœuvre. Vous pourrez également participer aux différentes tâches liées à la navigation, telles que la préparation des voiles, la manœuvre du gouvernail et la surveillance des conditions météo.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/mer.jpg" title ="Mer" alt="image de la mer">
+                <div class="texte">
+                <h2><a href="Page_détaillée_sejour.html">PLONGEE AU COEUR DES CALANQUES CORSES</a></h2>
+                <div class="localisation">
+                    <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+				    <p>Corse, France</p>
+                </div>
+                
+                <p>Mer, Confirmé</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget est et enim venenatis feugiat. Quisque eget consectetur magna.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/kayak.jpg" title ="Kayak" alt="Image de kayak">
+                <div class="texte">
+                    <h2><a href="Page_détaillée_sejour.html">KAYAK EN TRAVERSANT LES GRANDES MONTAGNES</a></h2>
+                    <div class="localisation">
+                        <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                        <p>Galice, Espagne</p>
+                    </div>
+                    
+				
+                <p>Mer, Confirmé</p>
+                <p>Un séjour de kayak en traversant les grandes montagnes vous permettra de découvrir les paysages les plus sauvages et les plus impressionnants que les montagnes peuvent offrir. Vous naviguez en kayak sur les rivières et les lacs de montagne, en passant par des gorges, des cascades et des rapides. Ce séjour est un mélange de sport, de nature et d'aventure, où vous pourrez non seulement pratiquer le kayak, mais aussi découvrir la faune et la flore locale, et peut-être même assister à des paysages à couper le souffle. Il est encadrés par des guides expérimentés qui vous accompagneront tout au long de l'expédition et vous assureront votre sécurité. Ce séjour est recommandé pour les amateurs d'aventure et de sport qui cherchent à sortir des sentiers battus, et pour les amoureux de la nature qui souhaitent découvrir des paysages d'une grande diversité. Le séjour comprend la location de kayak, de l'équipement de sécurité, les repas, et l'hébergement en camping ou en refuges.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/dunes.jpg" title ="PLAGE SALECCIA" alt="Image de cote">
+                <div class="texte">
+                    <h2><a href="Page_détaillée_sejour.html">SURF DU COTE DE LA PLAGE SALECCIA</a></h2>
+                    <div class="localisation">
+                       <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+				        <p>Corse, France</p> 
+                    </div>
+                    
+                    <p>Mer, Expert</p>
+                    <p> La plage de Saleccia est réputée pour ses vagues parfaites et son cadre idyllique, elle est considérée comme l'un des meilleurs spots de surf en France. Vous aurez l'occasion de vous perfectionner avec des instructeurs expérimentés qui vous apprendront les meilleures techniques de surf, de choisir les bons moments pour surfer et de gérer les conditions de mer. Ce séjour est idéal pour les débutants comme pour les surfeurs expérimentés, il vous permettra de passer des moments inoubliables dans un cadre exceptionnel. Le séjour comprend des cours de surf, la location d'une planche de surf, l'équipement de sécurité, les repas et l'hébergement dans une structure proche de la plage. Il est recommandé pour les amoureux de la mer et de la glisse, qui cherchent à améliorer leur technique de surf tout en profitant d'un cadre exceptionnel.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/village.jpg" title = "Village"alt="Image d'un village">
+                <div class="texte">
+                    <h2><a href="Page_détaillée_sejour.html">RANDONNEE DANS LE VILLAGE TRADITIONNEL</a></h2>
+                    
+                    <div class="localisation">
+                        <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                        <p>Bretagne, France</p>
+                    </div>
+                    
+				    <p>Aventure, Débutant</p>
+                    <p>Decouvrez les charmes d'un mode de vie rural authentique, tout en explorant les montagnes environnantes. Vous partirez à la découverte des sentiers de randonnée qui traversent les montagnes, en passant par des forêts, des prairies et des vallées. Vous aurez l'occasion de découvrir la faune et la flore locale, et de contempler des paysages à couper le souffle. Ce séjour vous permettra également de découvrir les traditions et les coutumes locales, en visitant les villages traditionnels, en rencontrant les habitants et en goûtant les spécialités culinaires locales. Il est encadré par des guides expérimentés qui vous accompagneront tout au long de l'expédition et vous assureront votre sécurité. Ce séjour est recommandé pour les amateurs de randonnée et de nature, qui cherchent à découvrir un mode de vie rural authentique. Le séjour comprend les repas, l'hébergement dans des gîtes ou des chambres d'hôtes, et la location de l'équipement nécessaire à la randonnée.
+                    </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/beach.jpg" title="plage" alt="Image de la plage">
+                <div class="texte">
+                    <h2><a href="Page_détaillée_sejour.html">VOILE AVEC LES DAUPHINS</a></h2>
+                    <div class="localisation">
+                        <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                        <p>Zante, Grèce</p>
+                    </div>
+                    
+                    <p>Mer, Confirmé</p>
+				<p>Naviguez sur les eaux cristallines en compagnie de ces animaux fascinants. Vous serez embarqué à bord d'un voilier moderne, et sous la direction d'un skipper expérimenté, vous naviguez sur les eaux ou les dauphins sont fréquents et vous aurez l'occasion de les observer et de les approcher de manière responsable et respectueuse de leur environnement. Ce séjour est idéal pour les amoureux de la nature et de la voile, qui cherchent à vivre une expérience inoubliable, en découvrant les dauphins dans leur habitat naturel. Le séjour comprend la location du bateau, l'équipement de voile, les repas à bord, et l'hébergement à bord ou dans une structure proche. Il est recommandé pour les amoureux de la nature, de la voile et pour ceux qui cherchent une expérience unique et proche de la nature.
+                </p>
+                </div>
+                <p>750-950€</p>
+                
+            </article>
+            
+            <article class ="bloc">
+				<img class = "images"  src="images/forest.jpg" title="forêt"alt="Image d'une forêt">
+                <div class="texte">
+                    <h2><a href="Page_détaillée_sejour.html">RANDONNEE DANS LA FORET DES LANDES</a></h2>
+                    <div class="localisation">
+                       <img src="images/place.png" title = "emplacement" alt="Logo de l'emplacement">
+                        <p>Landes, France</p> 
+                    </div>
+                    
+                    <p>Aventure, Débutant</p>
+				    <p>L'un des plus grands massifs forestiers de France, en parcourant ses sentiers de randonnée à travers les pins, les landes et les marais. Vous pourrez découvrir la faune et la flore locale, et admirer des paysages à couper le souffle, avec des vues sur les landes, les lacs et les rivières. Ce séjour vous permettra également de découvrir les traditions et les coutumes locales, en visitant les villages et les fermes dans la région. Il est encadré par des guides expérimentés qui vous accompagneront tout au long de l'expédition et vous assureront votre sécurité. Ce séjour est recommandé pour les amateurs de randonnée et de nature, qui cherchent à découvrir un massif forestier d'une grande diversité. Le séjour comprend les repas, l'hébergement dans des gîtes ou des chambres d'hôtes, et la location de l'équipement nécessaire à la randonnée.
+                </p>
+            </div>
+            <p>750-950€</p>
+            
+            </article>
+            
+        </section>
+    </div>
+    </main>
+    <footer>
+        <div class="pied">
+            <div class="bloc-pied">
+                <h3>NAVIGATION</h3>
+                <ul class="liste">
+                    <div class="contenuliste">
+                    <li><a href="accueilL.html">ACCUEIL</a></li>
+                    <li><a href="tout_les_sejours.html">SEJOURS </a>
+                    <li><a href="tout_les_sejours.html">ACTIVITES </a>
+                    <li><a href="#">QUI SOMMES-NOUS ?</a></li>
+                    <li><a href="#">NOUS CONTACTER</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="bloc-pied">
+                <h3>COORDONNEES</h3>
+                <ul class="liste">
+                    <div class="contenuliste">
+                    <li>00-00-00-00-00</li>
+                    <li>koh-sport@contact.com</li>
+                </div>
+                </ul>
+            </div>
+            
+            <div class="bloc-pied">
+                <h3>RESEAUX SOCIAUX</h3>
+                <ul class="liste">
+                    <div class="contenuliste">
+                    <li><a href="http://facebook.com"><img src="images/facebook.png" title="Facebook" alt="Logo de facebook"></a></li>
+                    <li><a href="http://instagram.com"><img src="images/instagram.png" title="Instagram" alt="Logo d'instagram"></a></li>
+                    <li><a href="http://twitter.com"><img src="images/twitter.png" title="Twitter" alt="Logo de twitter"></a></li>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    const burger = document.querySelector(".burger")
+    const navig = document.querySelector(".navig")
+
+    burger.addEventListener('click',()=>{
+    navig.classList.toggle('mobile-menu')
+    })
+
+    const refreshButton = document.querySelector('#refresh-button');
+
+    const refreshPage = () => {
+    location.reload();
+    }
+
+    refreshButton.addEventListener('click', refreshPage)
+</script>
+</body>
+
+</html>
